@@ -18,5 +18,3 @@ class Solution(object):
             for j in range(n):
                 result += min(skyline_from_top[j],skyline_from_left[i]) - grid[i][j]
         return result
-
-print(Solution().maxIncreaseKeepingSkyline([[3,0,8,4],[2,4,5,7],[9,2,6,3],[0,3,1,1]]))
